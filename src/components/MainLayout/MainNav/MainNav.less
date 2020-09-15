@@ -1,0 +1,47 @@
+.main-nav {
+  max-width: @full-box-width;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  .left-nav-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80px;
+    a {
+      color: @menu-item-color;
+    }
+  }
+}
+
+.mobile-nav {
+  background-color: #444444;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 18px;
+
+  .ant-col {
+    flex: 1;
+    text-align: center;
+  }
+
+  .nav-items {
+    a, span {
+      color: #ffffff;
+    }
+
+    .ant-badge {
+      .ant-badge-count {
+        top: -2px;
+        right: -9px;
+
+        span {
+          color: rgba(0, 0, 0, 0.65);
+        }
+      }
+    }
+  }
+}

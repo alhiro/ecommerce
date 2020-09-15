@@ -1,0 +1,45 @@
+body {
+  background-color: #ffffff !important;
+}
+
+.boxed-width {
+  max-width: @full-box-width;
+  margin: 0 auto;
+  @media (max-width: 1200px) {
+    margin: 0 25px;
+  }
+}
+
+.go-back {
+  padding: 15px;
+  background: #ffffff;
+  width: 100%;
+  font-size: 18px;
+  
+  span {
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.search-top {
+  margin: 20px;
+  border-radius: 25px !important;
+}
+
+.search-list {
+  width: 25%;
+
+  .float-icon {
+    position: absolute;
+    top: 15px;
+  }
+
+  img {
+    height: 90px;
+    object-fit: contain;
+  }
+
+  @media (max-width: 720px) {
+    width: 100%;
+  }
+}

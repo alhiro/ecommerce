@@ -1,0 +1,36 @@
+.category-item-card {
+  .ant-card-cover {
+    min-height: 224px;
+    background-color: #ededed;
+    @media (max-width: 1200px) {
+      min-height: auto;
+    }
+  }
+}
+
+.category-list {
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  .ant-list {
+    width: 25%;
+    margin: 10px;
+    display: inline-block;
+    
+    .ant-card-bordered {
+      border-radius: 8px;
+    }
+
+    .ant-card-body {
+      padding: 12px 10px;
+      text-align: center;
+
+      .ant-card-meta-title {
+        font-size: 14px
+      }
+    }
+  }
+}
